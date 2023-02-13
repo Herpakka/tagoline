@@ -71,7 +71,7 @@ if($_SESSION["username"] != 0){
 							<?php
 						}elseif($_SESSION["status1"] == 0){
 							?>
-								<li><a class="dropdown-item" href="menu_edit_customer.php?customer_id=<?=$rowmenu["customer_id"]?>" >Edit ME </a></li>
+								<li><a class="dropdown-item" href="menu_edit_customer.php?customer_id=<?=$rowmenu["M_id"]?>" >Edit ME </a></li>
 								<li><hr class="dropdown-divider"></li>
 								<li><a class="dropdown-item" href="login/logout.php">  logout  </a></li>
 							<?php
