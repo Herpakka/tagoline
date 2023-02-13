@@ -76,7 +76,7 @@ if($_SESSION["username"] != 0){
 								<li><a class="dropdown-item" href="login/logout.php">  logout  </a></li>
 							<?php
 
-						}a
+						}
 						?>
 						
 					</li>
